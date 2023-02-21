@@ -49,7 +49,7 @@
                 <!-- Navbar Logout-->
                 <ul class="navbar-nav ml-auto ml-md-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i>{{ auth()->user()->name}}
+                        <a class="nav-link dropdown-toggle color:red" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw" ></i>{{ auth()->user()->name}}
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                             <a class="dropdown-item" href="ganti_password"> <i class="fa fa-user"></i> Ganti Password</a>
@@ -66,7 +66,7 @@
             <div class="sidebar-wrapper scrollbar-inner">
                 <div class="sidebar-content">
                     <ul class="nav">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="collapse show" href="{{route('home')}}"><i class="fas fa-home"></i>
                                 <p> Dashboard </p>
                             </a>
