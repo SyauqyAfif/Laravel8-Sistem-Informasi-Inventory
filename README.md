@@ -4,15 +4,15 @@
 Laravel-Inventory was made to manage Inventory at the office
 
 ## System Requirement
-- PHP Version 7.2 or Above
+- PHP Version 7.4 or Above
 - Composer
 - Git
 
 ## Installation
 1. Open the terminal, navigate to your directory (htdocs or public_html).
 ```bash
-git clone https://github.com/SyauqyAfif/Sistem-Informasi-Inventory.git
-cd Sistem-Informasi-Inventory
+git clone https://github.com/SyauqyAfif/Laravel8-Sistem-Informasi-Inventory.git
+cd Laravel8-Sistem-Informasi-Inventory
 composer install / composer update
 copy .env.example .env
 ```
